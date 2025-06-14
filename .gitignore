@@ -1,9 +1,10 @@
-data/
+# ignore txt file in data directory
+data/*.txt
+!data/*.dvc
+
 *.csv
 
-
 .ipynb_checkpoints/
-
 
 .venv/
 venv/
